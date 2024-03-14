@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .btn_red {
+    @apply bg-[#F5333F] text-white;
+  }
+  .btn_white {
+    @apply bg-white text-black;
+  }
+  .btn_red_border {
+    @apply border border-[#F5333F] text-[#F5333F];
+  }
+  .bg-footer {
+    @apply bg-[#012846];
+  }
+}
